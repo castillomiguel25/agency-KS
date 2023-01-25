@@ -1,144 +1,159 @@
-#logo{
-    border-radius: 100%;
+#logo {
+  border-radius: 100%;
 }
-.btn-whatsapp{
-    display: block;
-    width: 70px;
-    height: 70px;
-    color: #fff;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    border-radius: 50%;
-    line-height: 80px;
-    text-align: center;
-    z-index: 999;
-    
+
+.btn-whatsapp {
+  display: block;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+
 }
 
 .form-register {
-    width: 100%;
-    background: #24303c;
-    padding: 30px;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 4px;
-    font-family: "calibri";
-    color: white;
-    box-shadow: 7px 13px 13px #f4f4f4;
-  }
-  
-  .form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
-  
-  .controls {
-    width: 100%;
-    background: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #be5c49;
-    font-family: "calibri";
-    font-size: 18px;
-    color: white;
-  }
-  
-  .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  
-  .form-register a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .form-register a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-  
-  .form-register .botons {
-    width: 100%;
-    background: #be5c49;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-  }
-  
-  #form {
-    padding: 20px;
-    border: 2px solid white;
-    margin: 2px;
-    transform: translate(50%);
-    height: 350px;
+  width: 100%;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 13px #f4f4f4;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #be5c49;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #be5c49;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+#form {
+  padding: 20px;
+  border: 2px solid white;
+  margin: 2px;
+  transform: translate(50%);
+  height: 350px;
+}
+
+.presentation {
+  color: #be5c49;
+}
+
+.presentation-img {
+  height: 250px;
+  width: 350px;
+  border-radius: 20%;
+}
+
+.card img {
+  height: 200px;
+}
+
+.cliente-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.info {
+  color: #be5c49;
+}
+
+.btn:hover {
+  background: #be5c49 !important;
+}
+
+.card-img {
+  height: 500px;
+}
+
+@media only screen and (max-width: 667px) {
+  .card {
+    margin-left: 50px;
   }
 
-  .card img{
-    height: 200px;
+  .card-img {
+    height: 300px;
   }
 
-  .cliente-img{
-    height: 200px;
-    width: 200px;
-    border-radius: 100%;
+  .presentation-img {
+    display: none;
   }
 
-  .info{
-    color: #be5c49;
+}
+
+@media only screen and (max-width: 480px) {
+  .card {
+    margin-left: 80px;
   }
+}
 
-  .btn:hover{
-    background: #be5c49 !important;
+@media only screen and (max-width: 414px) {
+  .card {
+    margin-left: 50px;
   }
+}
 
-  .card-img{
-    height: 500px;
+@media only screen and (max-width: 375px) {
+  .card {
+    margin-left: 30px;
   }
+}
 
-  @media only screen and (max-width: 667px) {
-    .card {
-        margin-left: 50px;
-    }
-
-    .card-img{
-      height: 300px;
+@media only screen and (max-width: 360px) {
+  .card {
+    margin-left: 23px;
   }
+}
 
-  @media only screen and (max-width: 480px) {
-    .card {
-        margin-left: 80px;
-    }
+@media only screen and (max-width: 320px) {
+  .card {
+    margin-left: 4px;
   }
-
-  @media only screen and (max-width: 414px) {
-    .card {
-        margin-left: 50px;
-    }
-  }
-
-  @media only screen and (max-width: 375px) {
-    .card {
-        margin-left: 30px;
-    }
-  }
-
-  @media only screen and (max-width: 360px) {
-    .card {
-        margin-left: 23px;
-    }
-  }
-
-  @media only screen and (max-width: 320px) {
-    .card {
-        margin-left: 4px;
-    }
-  }
-
-  
+}
