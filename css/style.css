@@ -84,10 +84,31 @@
     height: 200px;
   }
 
+  .cliente-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+  }
+
+  .info{
+    color: #be5c49;
+  }
+
+  .btn:hover{
+    background: #be5c49 !important;
+  }
+
+  .card-img{
+    height: 500px;
+  }
+
   @media only screen and (max-width: 667px) {
     .card {
         margin-left: 50px;
     }
+
+    .card-img{
+      height: 300px;
   }
 
   @media only screen and (max-width: 480px) {
@@ -111,6 +132,12 @@
   @media only screen and (max-width: 360px) {
     .card {
         margin-left: 23px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .card {
+        margin-left: 4px;
     }
   }
 
