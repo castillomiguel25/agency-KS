@@ -105,6 +105,10 @@
   color: #be5c49;
 }
 
+.color {
+  color: #be5c49 !important;
+}
+
 .btn:hover {
   background: #be5c49 !important;
 }
