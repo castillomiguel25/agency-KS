@@ -109,6 +109,14 @@
   color: #be5c49 !important;
 }
 
+.card-body{
+  background: #be5c49;
+}
+
+.card-body p {
+  color: white !important;
+}
+
 .btn:hover {
   background: #be5c49 !important;
 }
